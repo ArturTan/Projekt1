@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+"""
+Return the maximal power of the hack phrase 
+with the hack_calculator function"""
+
 from __future__ import print_function
 
 import re
 
 from collections import Counter
 
-"""
-Return the maximal power of the hack phrase 
-with the hack_calculator function"""
 
 class Hackerman(object):
 
@@ -185,8 +187,7 @@ def hack_calculator(hack="",
 
 if __name__ == "__main__":
     hack_calculator(hack="advantage",
-        letters={'a': 1, 'd': 2, 'e': 5,
-                 'g': 2, 'n': 1, 't': 4, 'v': 7},
-        phrases={"ad": 10, "ant": 13, "age": 24,
-                 "van": 13, "tag": 5})
-
+                    letters={'a': 1, 'd': 2, 'e': 5,
+                             'g': 2, 'n': 1, 't': 4, 'v': 7},
+                    phrases={"ad": 10, "ant": 13, "age": 24,
+                             "van": 13, "tag": 5})
