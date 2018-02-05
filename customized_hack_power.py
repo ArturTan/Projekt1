@@ -6,6 +6,9 @@ import re
 
 from collections import Counter
 
+"""
+Return the maximal power of the hack phrase 
+with the hack_calculator function"""
 
 class Hackerman(object):
 
