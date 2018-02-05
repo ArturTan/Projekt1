@@ -46,9 +46,9 @@ Power:   96
 
 ## Customization of calculation
 
-If we want to implement own letters/phrases dictionaries to find the power of the given hack, more gentle solution than regex will be the reccurence process of finding the most value combined with most effective combination of phrase.
+If we want to implement own letters/phrases dictionaries to find the power of the given hack, more gentle solution than regex will be the recurrent process of finding the most value combined with most effective combination of phrase.
 
-However, it may take a lot of time. Therefore, we could bind this time through binding also possibility of occurence of the next phrase.
+However, it may take a lot of time. Therefore, we could bind this time through binding also possibility of occurrence of the next phrase.
 
 Let's put it in the following way.
 
@@ -73,7 +73,7 @@ The total amount of possibilities amounts to 6^5, but we could bind the each pos
 
 In the first step we need to build the beginning of the word. The word "advantage" starts with "ad", therefore we have 2 possible phrases to use:
 
-- "ad" and "_" as the joker phrase. Other phrases cannot be use as the first phrase.
+- "ad" and "_" as the joker phrase. Other phrases cannot be used as the first phrase.
 
 In the second step the number of possibilities increase but we are still able to decrease it. We have now three phrases:
 - "ad" and the phrase to be chosen could be only "van" or "_"
@@ -85,5 +85,5 @@ In the third step we have:
 
 And so on...
 
-The above function is implemented in the "customized_hack_power.py" via the instance of the child ("RealHackerman") base class ("Hackerman") with the overwritten funcion ("phrase_power_counter"). 
+The above function is implemented in the "customized_hack_power.py" via the instance of the child ("RealHackerman") base class ("Hackerman") with the overwritten function ("phrase_power_counter"). 
 
