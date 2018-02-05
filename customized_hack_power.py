@@ -9,7 +9,8 @@ from collections import Counter
 
 class Hackerman(object):
 
-    """Auxiliary class that uses method of counting powers
+    """
+    Auxiliary class that uses method of counting powers
     """
     def __init__(self, hack):
 
@@ -19,7 +20,8 @@ class Hackerman(object):
 
     def letter_power_counter(self):
 
-        """Counting power of letters
+        """
+        Counting power of letters
         """
         count = Counter(self.hack)
         # Does hack
@@ -38,7 +40,8 @@ class Hackerman(object):
 
     def phrase_power_counter(self):
 
-        """Counting power of phrases"""
+        """
+        Counting power of phrases"""
 
         # Due to the fact that we have only two phrases in the set of phrases
         # the regex pattern should be enough to achieve the goal of the program.
@@ -54,8 +57,10 @@ class Hackerman(object):
 
 
 class RealHackerman(Hackerman):
-    """Uses the universal approach that binds the possible 
-    combinations of the phrases that build the hack"""
+    """
+    Uses the universal approach that binds the possible 
+    combinations of the phrases that build the hack
+    """
     def __init__(self, hack, letters=None, phrases=None):
 
         super(RealHackerman, self).__init__(hack)
@@ -121,7 +126,8 @@ class RealHackerman(Hackerman):
 def hack_calculator(hack="",
                     letters={},
                     phrases={}):
-    """"Return the maximal power of the hack phrase.
+    """"
+    Return the maximal power of the hack phrase.
 
     Computes the power of the given hack phrase on basis of 
     the dictionary of letters and phrases having assigned values.
@@ -175,7 +181,7 @@ def hack_calculator(hack="",
     return power
 
 if __name__ == "__main__":
-    hack_calculator(hack="advantageadvantaadvantageadvantaadvantagead",
+    hack_calculator(hack="advantage",
         letters={'a': 1, 'd': 2, 'e': 5,
                  'g': 2, 'n': 1, 't': 4, 'v': 7},
         phrases={"ad": 10, "ant": 13, "age": 24,
