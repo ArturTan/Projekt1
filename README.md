@@ -69,8 +69,6 @@ where underscore "_" indicated a "joker card" - the empty phrase that does not i
 Therefore, we have following phrases:
 - "ad", "ant", "age", "van", "tag" and "_" (list that has length of 6)
 
-The total amount of possibilities amounts to 6^5, but we could bind the each possibility depending on the subsequent letter of hack.
-
 In the first step we need to build the beginning of the word. The word "advantage" starts with "ad", therefore we have 2 possible phrases to use:
 
 - "ad" and "_" as the joker phrase. Other phrases cannot be used as the first phrase.
