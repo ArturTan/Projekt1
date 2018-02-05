@@ -59,7 +59,7 @@ phrases={"ad": 10, "ant": 13, "age": 24,
 ```
 and the word "advantage".
 
-The combination are follow:
+The combination are as follow:
 ```
 - ad|van|tag|_;
 - ad|_|ant|age;
@@ -67,7 +67,7 @@ The combination are follow:
 where underscore "_" indicated a "joker card" - the empty phrase that does not increase the power but should be treated as the phrase making up the hack.
 
 Therefore, we have following phrases:
-- "ad", "ant", "age", "van", "tag" and "_" (list that has length of 6)
+- "ad", "ant", "age", "van", "tag" and "_" (a list that has length of 6)
 
 In the first step we need to build the beginning of the word. The word "advantage" starts with "ad", therefore we have 2 possible phrases to use:
 
