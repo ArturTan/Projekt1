@@ -8,7 +8,9 @@ from collections import Counter
 
 class Hackerman():
 
-    """Auxiliary class that uses method of counting powers"""
+    """
+    Auxiliary class that uses method of counting powers
+    """
 
     def __init__(self, hack):
 
@@ -37,7 +39,9 @@ class Hackerman():
 
     def phrase_power_counter(self):
 
-        """Counting power of phrases"""
+        """
+        Counting power of phrases
+        """
 
         # Due to the fact that we have only two phrases in the set of phrases
         # the regex pattern should be enough to achieve the goal of the program.
@@ -53,7 +57,8 @@ class Hackerman():
 
 
 def hack_calculator(hack="", letters={}, phrases={}):
-    """Return the maximal power of the hack phrase.
+    """
+    Return the maximal power of the hack phrase.
 
     Computes the power of the given hack phrase on basis of 
     the dictionary of letters and phrases having assigned values:
