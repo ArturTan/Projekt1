@@ -47,7 +47,7 @@ class Hackerman():
         # the regex pattern should be enough to achieve the goal of the program.
         # Regex pattern will recognize first all "baa" which have more power than "ba".
 
-        # For more advanced solution with customized_hack_power
+        # For more advanced solution - see the customized_hack_power.py
 
         pattern = re.compile("(baa|ba)")
         results = pattern.findall(self.hack)
