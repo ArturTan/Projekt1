@@ -11,7 +11,7 @@ Libraries: Python Standard Library, python2 or python3
 ```
 git clone https://github.com/ArturTan/Projekt1
 ```
-2) Install the module in the chosen directory
+2) Install the module in the selected directory
 
 ```
 $ cd Projekt1
@@ -55,7 +55,7 @@ Let's put it in the following way.
 We have a dictionary of phrases:
 ```
 phrases={"ad": 10, "ant": 13, "age": 24,
-           "van": 13, "tag": 5}
+         "van": 13, "tag": 5}
 ```
 and the word "advantage".
 
